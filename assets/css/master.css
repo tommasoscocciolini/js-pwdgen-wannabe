@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+body{
+  height: 100vh;
+  background-color: black;
+  color: white;
+  background-image: url('https://www.punto-informatico.it/app/uploads/2019/08/matrix.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 50%;
+  padding-top: 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.screen{
+  background-color: #111111;
+  width: 100%;
+  border: 3px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.container h1{
+  font-size: 3em;
+}
+
+@media all and (max-width: 768px) {
+  .container h1{
+    font-size: 2em;
+  }
+}

@@ -7,5 +7,6 @@ console.log(cognome);
 var colore = prompt("Il tuo colore preferito?");
 console.log(colore);
 
-document.getElementById('saluto').innerHTML = "Ciao " + nome + " " +cognome;
-document.getElementById('psw').innerHTML = "Una pessima password generata potrebbe essere " + nome + cognome + colore + "21";
+document.getElementById('titolo').innerHTML = "Benvenuti nel pwdGen di " + nome
+document.getElementById('saluto').innerHTML = "Ciao " + nome + " " + cognome;
+document.getElementById('psw').innerHTML = "Una pessima password generata potrebbe essere: " + nome + cognome + colore + "21";
